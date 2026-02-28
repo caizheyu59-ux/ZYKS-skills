@@ -1,0 +1,65 @@
+{
+  "database": {
+    "default_type": "mysql",
+    "auto_create_schema": true,
+    "backup_enabled": true,
+    "backup_interval_hours": 24
+  },
+  "connections": {
+    "sqlite": {
+      "enabled": false,
+      "database_path": "./seo_backlink_memory.db",
+      "description": "SQLite数据库（无需服务器，适合本地使用）"
+    },
+    "mysql": {
+      "enabled": true,
+      "host": "localhost",
+      "port": 3306,
+      "username": "root",
+      "password": "123456",
+      "database": "seo_backlink_db",
+      "charset": "utf8mb4",
+      "description": "MySQL数据库（推荐用于生产环境）"
+    },
+    "postgresql": {
+      "enabled": false,
+      "host": "localhost",
+      "port": 5432,
+      "username": "root",
+      "password": "123456",
+      "database": "seo_backlink_db",
+      "description": "PostgreSQL数据库（推荐用于生产环境）"
+    }
+  },
+  "projects": {
+    "default": {
+      "name": "默认项目",
+      "description": "默认项目，用于未指定项目的查询"
+    },
+    "外贸视频营销": {
+      "name": "外贸视频营销项目",
+      "description": "外贸视频营销SaaS平台相关项目"
+    },
+    "跨境电商": {
+      "name": "跨境电商项目",
+      "description": "跨境电商相关项目"
+    },
+    "独立站推广": {
+      "name": "独立站推广项目",
+      "description": "各类独立站推广项目"
+    }
+  },
+  "features": {
+    "enable_real_time_search": false,
+    "enable_api_integration": true,
+    "enable_email_notifications": false,
+    "enable_auto_backup": true,
+    "enable_performance_analytics": false
+  },
+  "api_keys": {
+    "ahrefs": "",
+    "moz": "",
+    "semrush": "",
+    "google_search_console": ""
+  }
+}

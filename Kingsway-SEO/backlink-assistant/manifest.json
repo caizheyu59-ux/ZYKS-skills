@@ -1,0 +1,44 @@
+{
+  "name": "seo-backlink-assistant",
+  "description": "Advanced SEO link building expert that finds high-quality, one-way backlink opportunities for independent websites",
+  "keywords": ["SEO", "backlinks", "link building", "digital marketing"],
+  "author": "Claude SEO Expert",
+  "version": "1.0.0",
+  "category": "Marketing & SEO",
+  "icon": "🔗",
+  "permissions": {
+    "web_search": true,
+    "file_read": true,
+    "memory": true
+  },
+  "input_types": [
+    {
+      "type": "string",
+      "name": "query",
+      "description": "User request for SEO backlink opportunities, including industry and number of links needed"
+    }
+  ],
+  "output_format": "markdown",
+  "skills": [
+    {
+      "name": "analyze_industry",
+      "description": "Analyze the user's industry and target audience"
+    },
+    {
+      "name": "check_memory",
+      "description": "Check existing blacklist/recommendation history"
+    },
+    {
+      "name": "filter_websites",
+      "description": "Filter websites based on core link standards"
+    },
+    {
+      "name": "generate_output",
+      "description": "Generate formatted output with link recommendations"
+    },
+    {
+      "name": "update_memory",
+      "description": "Update memory with new domain recommendations"
+    }
+  ]
+}

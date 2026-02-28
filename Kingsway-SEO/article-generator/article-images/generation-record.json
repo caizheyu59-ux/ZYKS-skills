@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-02-26T10:25:15.696Z",
+  "total": 3,
+  "success": 3,
+  "results": [
+    {
+      "name": "comparison-1",
+      "url": "https://static.geekai.co/image/2026/02/26/42a7ea0a5299a593959d2225ef91a0bd.jpeg",
+      "filepath": "C:\\Users\\caizheyu\\.claude\\skills\\Kingsway-Promotion\\article-images\\comparison-1.png",
+      "status": "success"
+    },
+    {
+      "name": "conversion-boost",
+      "url": "https://static.geekai.co/image/2026/02/26/d6264deed91419c1e69d831e30ed96c1.jpeg",
+      "filepath": "C:\\Users\\caizheyu\\.claude\\skills\\Kingsway-Promotion\\article-images\\conversion-boost.png",
+      "status": "success"
+    },
+    {
+      "name": "24h-auto-lead",
+      "url": "https://static.geekai.co/image/2026/02/26/1d76c321ac27243019af2586ca16e35d.jpeg",
+      "filepath": "C:\\Users\\caizheyu\\.claude\\skills\\Kingsway-Promotion\\article-images\\24h-auto-lead.png",
+      "status": "success"
+    }
+  ]
+}
